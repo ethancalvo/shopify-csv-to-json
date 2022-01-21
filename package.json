@@ -1,0 +1,25 @@
+{
+  "name": "shopify-csv-to-json",
+  "version": "0.0.0",
+  "description": "converts shopify product export to json",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "shopify-csv-to-json": "index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ethancalvo/shopify-csv-to-json.git"
+  },
+  "author": "ethan calvert",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ethancalvo/shopify-csv-to-json/issues"
+  },
+  "homepage": "https://github.com/ethancalvo/shopify-csv-to-json#readme",
+  "dependencies": {
+    "csv-parse": "^5.0.4"
+  }
+}
